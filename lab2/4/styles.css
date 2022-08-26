@@ -1,0 +1,21 @@
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 30px;
+
+}
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -122px;
+    margin-left: -114px;
+}
+td.big {
+    font-weight: bold;
+}
+
+td.color {
+    color: orange;
+}

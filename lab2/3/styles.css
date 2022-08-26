@@ -1,0 +1,29 @@
+body {
+    color: white;
+}
+.graph {
+    margin: 3px;
+    height: 20px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+.graph:nth-child(1) {
+    width: calc(400px * 0.6);
+    background: red;
+}
+.graph:nth-child(2) {
+    width: calc(400px * 0.9);
+    background: blue;
+}
+.graph:nth-child(3) {
+    width: calc(400px * 0.5);
+    background: green;
+}
+.graph:nth-child(4) {
+    width: calc(400px * 0.8);
+    background: gray;
+}
+.graph:nth-child(5) {
+    width: calc(400px * 0.75);
+    background: rgb(145, 143, 78);
+}

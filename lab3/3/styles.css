@@ -1,0 +1,43 @@
+.bigbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -202px;
+    margin-left: -202px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.poom{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -33.5px;
+    margin-top: 250px;
+}
+.container{
+    display: flex;
+
+}
+#picture{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+}
+#picture1{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+}
+#picture2{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+}
+#picture3{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+}
+

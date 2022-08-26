@@ -1,0 +1,33 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+}
+
+.container {
+    max-width: 800px;
+    max-height: 400px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -400px;
+}
+
+.box {
+    border: 10px solid gray;
+    height: 350px;
+    width: 300px;
+    padding: 20px;
+}
+#left {
+    background-color: white;
+    overflow-wrap: break-word;
+}
+#right {
+    background-color: white;
+    overflow-wrap: break-word;
+    overflow: auto;
+
+}
