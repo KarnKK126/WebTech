@@ -13,12 +13,12 @@
         <form role="form" id="myform">
         <div class="form-group">
             <label for="IDcard">หมายเลขบัตรประชาชน :</label>
-            <input type="number" class="form-control" name="IDcard" placeholder="Enter IDcard">
+            <input class="form-control" name="IDcard" placeholder="Enter IDcard">
         </div>
         <div class="form-group">
         <label for="Gender">คำนำหน้านาม :</label>
         <select class="form-control" name="Gender">
-            <option selected="selected">เลือกคำนำหน้านาม</option>
+            <option value="000" selected="selected">เลือกคำนำหน้านาม</option>
             <option>นาย</option>
             <option>นาง</option>
             <option>นางสาว</option>
@@ -49,7 +49,7 @@
         <div class="form-group">
             <label for="City">จังหวัด :</label>
             <select class="form-control" name="city">
-                <option value="" selected>--------- เลือกจังหวัด ---------</option>
+                <option value="000" selected>--------- เลือกจังหวัด ---------</option>
                 <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
                 <option value="กระบี่">กระบี่ </option>
                 <option value="กาญจนบุรี">กาญจนบุรี </option>
@@ -136,5 +136,7 @@
         </form>
 
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
