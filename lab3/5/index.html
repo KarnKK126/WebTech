@@ -13,30 +13,32 @@
         <form role="form" id="myform">
             <div class="form-group">
                 <label for="Name">Full Name</label>
-                <input class="form-control" name="Name" placeholder="Enter Fullname">
+                <input class="form-control" name="Name" id="Name" placeholder="Enter Fullname">
             </div>
             <div class="form-group">
                 <label for="Phone">Phone</label>
-                <input class="form-control" name="Phone" placeholder="Enter Phone-number">
+                <input class="form-control" name="Phone" id="Phone" placeholder="Enter Phone-number">
             </div>
             <div class="form-group">
                 <label for="Email">Email</label>
-                <input type="email" class="form-control" name="Email" placeholder="Enter Email">
+                <input type="email" class="form-control" name="Email" id="Email" placeholder="Enter Email">
             </div>
             <div class="form-group">
                 <label for="company">Company</label>
-                <input class="form-control" name="company" placeholder="Enter Company">
+                <input class="form-control" name="company" id="company" placeholder="Enter Company">
             </div>
             <br>
-            <button id="butt" type="submit" class="btn btn-primary btn-lg btn-block" onclick="OnClick()">Create</button>
+            <button id="butt" type="button" class="btn btn-primary btn-lg btn-block" onclick="change()">Create</button>
         </form>
     </div>
     <div class="card">
+        <img id="img1" class="card-img" stroke="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Black_Paw.svg/1093px-Black_Paw.svg.png  "" alt="Card image">
         <div class="card-body">
-            <h5 id="cardname" class="card-title"> firstName lastName</h5>
-            <p id="cardphone" class="card-text">Phone number</p>
-            <p id="cardmail" class="card-text">Email</p>
-            <p id="cardcompany" class="card-text">Company Inc.</p>
+
+            <h5 id="cardname" class="card-title" style="opacity: 100%;"> firstName lastName</h5>
+            <p id="cardphone" class="card-text" style="opacity: 100%;">Phone number</p>
+            <p id="cardmail" class="card-text" style="opacity: 100%;">Email</p>
+            <p id="cardcompany" class="card-text" style="opacity: 100%;">Company</p>
         </div>
     </div>
     <script src="script.js"></script>

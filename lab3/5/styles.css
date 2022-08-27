@@ -20,10 +20,18 @@ body{
     top: 50%;
     margin-top: -101px;
     border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
 }
 #butt{
     position: relative;
     width: 450px;
     left: 50%;
     margin-left: -225px;
+}
+#img1{
+    position: absolute;
+    top: -20%;
+    left: 30%;
+    scale: 0.3;
 }
