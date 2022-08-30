@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Sriracha', cursive;
+    background-color: #E4F9F5;
+}
+.container{
+    background-color: #212121;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* border: 5px solid red; */
+}
+#profilepic{
+    height: 700px;
+    border: 10px solid black;
+}
+.cblack{
+    color: #212121;
+}
+.cgray{
+    color: #323232;
+}
+.cdarkblue{
+    color: #0D7377;
+}
+.clightblue{
+    color: #14FFEC;
+}
+#name{
+    padding: 30px;
+}
+#profilecard{
+    border: 10px solid black;
+}
+#cardimg{
+    height: 200px;
+}
+.gocenter{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+#itcamppic{
+    height: 150px;
+}
+.bghd{
+    background-color: #0D7377;
+}
+.bgnm{
+    background-color: #14FFEC;
+}
+.bgez{
+    background-color: #B9FFF8;
+}
+.profilemove{
+    position: relative;
+    width: 300px;
+    left: 50%;
+    margin-left: -200px;
+}
+.buttonmove{
+    width: 300px;
+    padding-top: 50px;
+    position: relative;
+    left: 50%;
+    margin-left: -110px;
+}

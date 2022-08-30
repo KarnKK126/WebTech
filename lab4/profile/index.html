@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a id="navcolor" class="navbar-brand" href="#mainpage">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#profilepage">โปรไฟล์</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#workpage">งานอดิเรก</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#activepage">ผลงาน</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- page1 -->
+    <div id="mainpage" class="container">
+        <div class="text-center">
+            <img id="profilepic" src="./img/KarnUni.jpg" class="rounded" alt="">
+        </div>
+        <!-- ปุ่ม -->
+        <div class="buttonmove">
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn bgez" onclick="changetokid()">Kid</button>
+                <button type="button" class="btn bgnm" onclick="changetoschool()">School</button>
+                <button type="button" class="btn bghd" onclick="changetouni()">University</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- page2 -->
+    <div id="profilepage" class="container">
+        <div class="gocenter">
+            <div class="badge text-wrap" style="width: 300px; background-color: #14FFEC; margin-bottom: 50px;">
+                <h1>โปรไฟล์</h1>
+            </div>
+        </div>
+
+        <div class="profilemove">
+            <div id="profilecard" class="card" style="width: 400px;">
+                <img src="./img/profilepic.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-text"><b>นาย กานต์ แก้วประภา</b></h4>
+                    <p class="card-text">รหัสนักศึกษา 64070126</p>
+                    <p class="card-text">อายุ 19 ปี</p>
+                    <p class="card-text">เพศ ชาย</p>
+                    <p class="card-text">มีแฟนแล้ว</p>
+                    <h4 class="card-text text-center"><b>คำคมบาดใจ</b></h4>
+                    <p class="card-text text-center">ปูนพร้อมก่อ สุดหล่อพร้อมยัง</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- page3 -->
+    <div id="workpage" class="container">
+        <div class="gocenter">
+            <div class="badge text-wrap" style="width: 300px; background-color: #14FFEC; margin-bottom: 50px;">
+                <h1>งานอดิเรก</h1>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img id="cardimg" src="./img/league.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">League of Legend</h5>
+                    <p class="card-text">เป็นเกมที่ผมเล่นมานานมาก และเป็นเกมแรกๆที่ผมเล่นเป็นทำให้ผมผูกพันธ์กับเกมนี้มาก
+                        ผมได้เพื่อนๆมากมายจากเกมนี้</p>
+                    <p class="card-text"><small class="text-muted">Play Game</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img id="cardimg" src="./img/valorant.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Valorant</h5>
+                    <p class="card-text">เกมแนว FPS shooting ที่เน้นการสื่อสาร ช่วยกันเล่นเพื่อชนะฝ่ายตรงข้าม
+                        เป็นเกมที่เล่นด้วยความจริงจังและสนุกที่ได้เล่นกับเพื่อน
+                    </p>
+                    <p class="card-text"><small class="text-muted">Play Game</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img id="cardimg" src="./img/drawing.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Drawing</h5>
+                    <p class="card-text">เมื่อผมเบื่อการเล่นเกมผมก็จะหันมาวาดรูปแทน มันทำให้ผมมีความสุขเช่นกัน
+                        วาดรูปไปและคิดเรื่องต่างๆไป ฟังเพลงสบายๆ</p>
+                    <p class="card-text"><small class="text-muted">Drawing</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- page4 -->
+    <div id="activepage" class="container">
+        <div class="gocenter">
+            <div class="badge text-wrap" style="width: 300px; background-color: #14FFEC; margin-bottom: 50px;">
+                <h1>ผลงาน</h1>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./img/ITcamp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ITcamp18</h5>
+                        <p class="card-text">ทำงานเป็นฝ่าย Photo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img/Prepro.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pre-programming65</h5>
+                        <p class="card-text">ทำงานเป็นฝ่ายวิชาการ ทำหน้าที่ TD.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
