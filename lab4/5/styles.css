@@ -1,0 +1,30 @@
+img{
+    background-size: cover;
+}
+body {
+    font-family: 'Sriracha', cursive;
+    background-color: #52734D;
+}
+.container{
+    /* border: 2px solid red; */
+    padding-top: 50px;
+    display: flex;
+    background-color: #FEFFDE;
+
+}
+#dudecolor{
+    background-color: #91C788;
+
+    border-radius: 20px;
+}
+.card-img-top{
+    height: 150px;
+}
+#result{
+    background-color: #98DDCA;
+}
+#order{
+    background-color: #52734D;
+    border-radius: 20px;
+    color: #FEFFDE;
+}
