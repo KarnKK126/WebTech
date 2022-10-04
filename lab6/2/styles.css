@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2em;
+}
+
+body>div:nth-child(2) {
+    margin-top: 2em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 10em 10em;
+    gap: 1em;
+}
+
+.grid>img {
+    width: 100%;
+    border: 3px solid black;
+}
+
+@media only screen and (max-width:600px) {
+    .grid {
+
+        grid-template-columns: 10em;
+    }
+}

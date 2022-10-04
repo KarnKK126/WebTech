@@ -1,0 +1,17 @@
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+b {
+    font-size: 1.5em;
+}
+
+table {
+    width: 15%;
+}
+
+table,
+td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}

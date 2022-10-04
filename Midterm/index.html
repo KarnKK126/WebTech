@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>64070126 Karn Kaewprapa</title>
+</head>
+<body>
+    <div class="container-fluid p-5">
+        <div class="form-check"><label>คำถาม :&nbsp;</label><input id="textquestion" type="form-check-inline"></div>
+        <br>
+        <input id="choice1" name="ans" type="radio"> A <input id="textchoice1" type="form-check-inline"><br>
+        <input id="choice2" name="ans" type="radio"> B <input id="textchoice2" type="form-check-inline"><br>
+        <input id="choice3" name="ans" type="radio"> C <input id="textchoice3" type="form-check-inline"><br>
+        <br>
+        <button type="button" onclick="newquestion()">เพิ่มข้อสอบ</button>
+    </div>
+    <div class="container-fluid">
+        <table id="table" class="table">
+            <tr>
+                <td>ข้อที่</td>
+                <td>คำถาม</td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>คำตอบ</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
